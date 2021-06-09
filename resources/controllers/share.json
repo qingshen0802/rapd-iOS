@@ -1,0 +1,174 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "top_tab_bar",
+      "type": "top_tab_bar",
+      "autolayout": {
+        "top": 80,
+        "leading": 0,
+        "trailing": 0,
+        "height": 90
+      }
+    },
+    {
+      "outlet": "top_square",
+      "type": "view",
+      "background_color": "ecf0f1",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 180,
+        "center_x": 0,
+        "width": 320,
+        "height": 180
+      }
+    },
+    {
+      "outlet": "liked_title_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Gostou do Tratto?",
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 18,
+        "color": "666666"
+      },
+      "autolayout": {
+        "top": 200,
+        "center_x": 0,
+        "width": 200,
+        "height": 22
+      }
+    },
+    {
+      "outlet": "liked_subtitle_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Suas indicações de amigos têm\npreferência no cadastro. Ajude-nos\ncompartilhando sua experiência com\noutras pessoas.",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "666666"
+      },
+      "autolayout": {
+        "top": 230,
+        "center_x": 0,
+        "width": 300,
+        "height": 90
+      }
+    },
+    
+    {
+      "outlet": "shared_link_title_label",
+      "type": "label",
+      "text_alignment": "center",
+      "hidden": true,
+      "content": "Copie e cole o link abaixo e envie\npara seus amigos.",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "666666"
+      },
+      "autolayout": {
+        "top": 230,
+        "center_x": 0,
+        "width": 300,
+        "height": 90
+      }
+    },      
+    
+    {
+      "outlet": "shared_link_square",
+      "type": "view",
+      "background_color": "ecf0f1",
+      "corner_radius": 5,
+      "hidden": true,
+      "autolayout": {
+        "top": 340,
+        "center_x": 0,
+        "width": 320,
+        "height": 80
+      }
+    }, 
+    
+    {
+      "outlet": "shared_link_label",
+      "type": "text_field",
+      "text_alignment": "center",
+      "hidden": true,
+      "clear_color": true,
+      "disabled": true,
+      "font": {
+        "name": "Roboto",
+        "size": 24,
+        "color": "666666"
+      },
+      "autolayout": {
+        "top": 360,
+        "center_x": 0,
+        "width": 300,
+        "height": 40
+      }
+    },           
+    
+    {
+      "outlet": "social_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Compartilhe no Facebook para indicar o Tratto\naos seus amigos. Nós não enviamos SPAM.",
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "666666"
+      },
+      "autolayout": {
+        "top": 400,
+        "center_x": 0,
+        "width": 300,
+        "height": 90
+      }
+    },
+    {
+      "outlet": "social_button", 
+      "type": "button",
+      "color": "3c5a96",
+      "action": "post_to_facebook",
+      "title": "Compartilhar no Facebook",
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -110,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50
+      }
+    },
+    {
+      "outlet": "search_view",
+      "type": "search_field",
+      "hidden": true,
+      "autolayout": {
+        "top": 150,
+        "leading": 0,
+        "trailing": 0,
+        "height": 40
+      }
+    },          
+    {
+      "type": "table_view",
+      "cells": {"phone_contact": 60},
+      "hidden": true,
+      "skip_inset": true,
+      "autolayout": {
+        "top": 190,
+        "bottom": -50,
+        "leading": 0,
+        "trailing": 0
+      }
+    }        
+  ]
+}

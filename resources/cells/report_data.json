@@ -1,0 +1,67 @@
+{
+  "elements": [
+    
+    {
+      "type": "label",
+      "outlet": "balance_label",
+      "font": {
+        "name": "Roboto",
+        "size": 32,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 20,
+        "height": 36,
+        "leading": 20,
+        "trailing": -20
+      }
+    },
+    {
+      "type": "label",
+      "outlet": "month_label",
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 50,
+        "height": 36,
+        "leading": 20,
+        "trailing": -20
+      }
+    },
+    
+    {
+      "type": "label",
+      "outlet": "transactions_count_label",
+      "font": {
+        "name": "Roboto",
+        "size": 32,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 20,
+        "height": 36,
+        "width": 120,
+        "trailing": -20
+      }
+    },
+    {
+      "type": "label",
+      "outlet": "transactions_label",
+      "content": "TRANSAÇÕES",
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 50,
+        "height": 36,
+        "width": 120,
+        "trailing": -20
+      }
+    },           
+  ]
+}

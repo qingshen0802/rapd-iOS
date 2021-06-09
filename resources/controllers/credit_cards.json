@@ -1,0 +1,56 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "cells": {"credit_card": 220},
+      "autolayout": {
+        "top": 80,
+        "bottom": -170,
+        "leading": 0,
+        "trailing": 0
+      }
+    },
+    
+    {
+      "outlet": "instructions_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Ative o cartão padrão que será acionado quando não houver crédito suficiente em conta",
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "000000"
+      },
+      "autolayout": {
+        "bottom": -130,
+        "height": 35,
+        "center_x": 0,
+        "width": 320
+      }
+    },
+    
+    {
+      "outlet": "add_button", 
+      "type": "button",
+      "title": "NOVO CARTÃO",
+
+      "color": "F15E4F",
+      "action": "addCard",
+      "corner_radius": 6.0,
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "autolayout": {
+        "bottom": -60,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    },   
+
+  ]
+}

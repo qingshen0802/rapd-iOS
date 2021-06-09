@@ -1,0 +1,18 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "change_separator_no_icon": true,
+      "cells": {"no_icon_title_subtitle": 60},
+      "autolayout": {
+        "top": 80,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

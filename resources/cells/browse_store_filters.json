@@ -1,0 +1,63 @@
+{
+  "elements": [
+
+    {
+      "outlet": "all_button",
+      "type": "button",
+      "title": "TODAS AS LOJAS",
+      "text_alignment": "right",
+      "image": "",
+      "action": "filter_all",
+      "autolayout": {
+        "width": 120,
+        "center_x": -90,
+        "center_y": 0,
+        "height":10
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 12,
+        "color": "ffffff"
+      }
+    },
+
+    {
+      "outlet": "separator",
+      "type": "label",
+      "background_color": "9AA2AA",
+      "autolayout": {
+        "top": 18,
+        "center_x": -30,
+        "width": 1,
+        "height": 13
+      },
+      "content": "",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },
+        
+    {
+      "outlet": "credit_button",
+      "type": "button",
+      "title": "LOJAS QUE TENHO CRÉDITO",
+      "text_alignment": "right",
+      "action": "filter_credit",
+      "autolayout": {
+        "center_x": 60,
+        "leading": 140,
+        "width": 160,
+        "center_y": 0,
+        "height": 10
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 12,
+        "color": "ffffff"
+      }
+    }
+    
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "elements": [
+    {
+      "outlet": "store_background",
+      "type": "image",
+      "autolayout": {
+        "trailing": 0,
+        "height": 140,
+        "leading": 0,
+        "top": 0
+      }
+    },
+
+     {
+      "outlet": "info_label",
+      "type": "label",
+      "background_color": "F15E4F",
+      "corner_radius" : 2.0,
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto-bold",
+        "size": 14,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "trailing": -10,
+        "center_y": -105,
+        "height": 30
+      }
+    },
+
+    {
+      "outlet": "store_icon",
+      "type": "image",
+      "corner_radius": 4.0,
+      "autolayout": {
+        "width": 70,
+        "height": 70,
+        "leading": 30,
+        "top": 35
+      }
+    },
+
+    {
+      "outlet": "name_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "000000"
+      },
+      "autolayout": {
+        "leading": 30,
+        "trailing": -40,
+        "center_y": 35,
+        "height": 22
+      }
+    },
+
+    {
+      "outlet": "distance_label",
+      "type": "label",
+      "content": "200m",
+      "font": {
+        "name": "Roboto",
+        "size": 13,
+        "color": "9B9B9B"
+      },
+      "autolayout": {
+        "width": 50,
+        "trailing": -20,
+        "center_y": 35,
+        "height": 22
+      }
+    },
+
+    {
+      "outlet": "username_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "000000"
+      },
+      "autolayout": {
+        "leading": 30,
+        "trailing": -40,
+        "center_y": 55,
+        "height": 22
+      }
+    },
+
+    {
+      "outlet": "discount_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 12,
+        "color": "9AA2AA"
+      },
+      "autolayout": {
+        "leading": 60,
+        "trailing": -40,
+        "center_y": 95,
+        "height": 40
+      }
+    },
+
+    {
+      "outlet": "discount_icon",
+      "type": "image",
+      "autolayout": {
+        "width": 25,
+        "height": 25,
+        "leading": 30,
+        "top": 205
+      }
+    }
+  ]
+}

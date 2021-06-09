@@ -1,0 +1,16 @@
+{
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "disable_scroll": true,
+      "cells": {"switch": 50},
+      "autolayout": {
+        "top": 80,
+        "height": 220,
+        "leading": 0,
+        "trailing": 0
+      }
+    },
+  ]
+}

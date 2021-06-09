@@ -1,0 +1,156 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [                
+    {
+      "outlet": "top_square",
+      "type": "view",
+      "background_color": "ecf0f1",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 80,
+        "center_x": 0,
+        "width": 300,
+        "height": 220
+      }
+    },
+
+    {
+      "outlet": "top_square_front",
+      "type": "control",
+      "action": "sendDocumentFront",
+      "background_color": "ffffff",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 85,
+        "center_x": 0,
+        "width": 290,
+        "height": 210
+      }
+    },       
+    
+    {
+      "outlet": "top_square_image",
+      "type": "image",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 85,
+        "center_x": 0,
+        "width": 290,
+        "height": 210
+      }
+    },             
+
+    {
+      "outlet": "bottom_square",
+      "type": "view",
+      "background_color": "ecf0f1",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 320,
+        "center_x": 0,
+        "width": 300,
+        "height": 220
+      }
+    },
+    
+    {
+      "outlet": "bottom_square_front",
+      "type": "control",
+      "action": "sendDocumentBack",
+      "background_color": "ffffff",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 325,
+        "center_x": 0,
+        "width": 290,
+        "height": 210
+      }
+    },     
+    
+    {
+      "outlet": "bottom_square_image",
+      "type": "image",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 325,
+        "center_x": 0,
+        "width": 290,
+        "height": 210
+      }
+    },                        
+    
+    {
+      "outlet": "top_document_icon",
+      "type": "image",
+      "name": "images/document_camera_icon.png",
+      "autolayout": {
+        "top": 160,
+        "center_x": -90,
+        "width": 60,
+        "height": 50
+      }
+    },
+    
+    {
+      "outlet": "bottom_document_icon",
+      "type": "image",
+      "name": "images/document_camera_icon.png",
+      "autolayout": {
+        "top": 400,
+        "center_x": -90,
+        "width": 60,
+        "height": 50
+      }
+    },        
+    
+    {
+      "outlet": "top_label",
+      "type": "label",
+      "content": "ENVIAR FRENTE\nDO RG, CNH ou RNE",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 155,
+        "center_x": 110,
+        "width": 300,
+        "height": 60
+      }
+    },
+    
+    {
+      "outlet": "bottom_label",
+      "type": "label",
+      "content": "ENVIAR VERSO\nDO RG, CNH ou RNE",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 395,
+        "center_x": 110,
+        "width": 300,
+        "height": 60
+      }
+    },    
+    
+    {
+      "outlet": "save_button", 
+      "type": "button",
+      "title": "ENVIAR",
+      "color": "F15E4F",
+      "action": "sendPhotos",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -60,
+        "center_x": 0,
+        "width": 310,
+        "height": 50
+      }
+    },               
+  ]
+}

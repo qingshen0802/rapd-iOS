@@ -1,0 +1,76 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "form_controller": true,
+  "elements": [
+    {
+      "outlet": "verify_account_label",
+      "type": "label",
+      "content": "Para prosseguir informe o número do seu celular.",
+      "text_alignment": "left",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "364655"
+      },
+      "autolayout": {
+        "leading": 20,
+        "top": 80,
+        "trailing": -20,
+        "height": 55
+      }      
+    },
+    
+    {
+      "outlet": "phone_number_field",
+      "type": "text_field",
+      "placeholder": "Seu celular",
+      "underlined": true,    
+      "number_only": true,
+      "mask": true,     
+      "autolayout": {
+        "leading": 20,
+        "trailing": -20,
+        "center_x": 0,
+        "top": 130,
+        "height": 44
+      }
+    },
+
+    {
+      "outlet": "verify_code_button", 
+      "type": "button",
+      "action": "verifycode",
+      "title": "Já tenho o código",
+      "link_style": true,
+      "font": {
+        "name": "Roboto",
+        "size": 17,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 180,
+        "leading": 20,
+        "width": 140,
+        "height": 23
+      },
+      "text_alignment": "left"
+    },
+    
+    {
+      "outlet": "verify_account_button", 
+      "type": "button",
+      "title": "Continuar",
+      "color": "F15E4F",
+      "action": "verifyAccount",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -15,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50,
+        "attach_to_super_super_view": true
+      }
+    }
+  ]
+}       

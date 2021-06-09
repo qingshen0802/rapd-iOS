@@ -1,0 +1,284 @@
+{
+  "elements": [
+    {
+      "outlet": "label1",
+      "type": "label",
+      "content": "Digite o @usuário, telefone ou email:",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "AAAAAA"
+      },
+      "autolayout": {
+        "top": 80,
+        "leading": 20,
+        "trailing": -20,
+        "height": 20
+      }
+    },
+    {
+      "outlet": "status_title",
+      "type": "label",
+      "content": "Test Test Test",
+      "font": {
+        "name": "Roboto",
+        "size": 17,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 110,
+        "leading": 20,
+        "trailing": -20,
+        "height": 30
+      }
+    },
+
+    {
+      "outlet": "label2",
+      "type": "label",
+      "content": "Valor",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "AAAAAA"
+      },
+      "autolayout": {
+        "top": 170,
+        "leading": 20,
+        "trailing": -20,
+        "height": 20
+      }
+    },
+    {
+      "outlet": "status_value",
+      "type": "label",
+      "content": "$200",
+      "font": {
+        "name": "Roboto",
+        "size": 17,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 195,
+        "leading": 20,
+        "trailing": -20,
+        "height": 30
+      }
+    },
+
+    {
+      "outlet": "label3",
+      "type": "label",
+      "content": "Carteira",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "AAAAAA"
+      },
+      "autolayout": {
+        "top": 170,
+        "height": 20,
+        "center_x": 0
+      }
+    },
+    {
+      "outlet": "status_wallet",
+      "type": "label",
+      "content": "Test",
+      "font": {
+        "name": "Roboto",
+        "size": 17,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 195,
+        "height": 30,
+        "center_x": 0
+      }
+    },
+
+    {
+      "outlet": "label4",
+      "type": "label",
+      "content": "Comentários",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "AAAAAA"
+      },
+      "autolayout": {
+        "top": 240,
+        "leading": 20,
+        "trailing": -20,
+        "height": 20
+      }
+    },
+    {
+      "outlet": "status_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 265,
+        "leading": 20,
+        "trailing": -20
+      },
+      "numberOfLines": 0
+    },
+
+    {
+      "outlet": "background_view",
+      "type": "view",
+      "background_color":"F4F5F6",
+      "corner_radius": 4,
+      "autolayout": {
+        "top": 400,
+        "leading": 0,
+        "trailing": 0,
+        "bottom": -51
+      }
+    },
+
+
+    {
+      "outlet": "status_icon",
+      "type": "image",
+      "autolayout": {
+        "top": 425,
+        "width": 50,
+        "height": 50,
+        "center_x": 0
+      }
+    },
+
+    {
+      "outlet": "status_icon1",
+      "type": "image",
+      "autolayout": {
+        "top": 485,
+        "width": 32,
+        "height": 32,
+        "leading": 25
+      }
+    },
+    {
+      "outlet": "status_label1",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 486,
+        "leading": 73,
+        "trailing": -20
+      },
+      "numberOfLines": 0
+    },
+
+    {
+      "outlet": "line_view",
+      "type": "view",
+      "background_color":"9AA2AA",
+      "corner_radius": 4,
+      "autolayout": {
+        "bottom": -115,
+        "leading": 23,
+        "trailing": -23,
+        "height": 1
+      },
+      "alpha": 0.3
+    },
+
+    {
+      "outlet": "label5",
+      "type": "label",
+      "content": "Compartilhar:",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "364655"
+      },
+      "autolayout": {
+        "bottom": -68,
+        "leading": 25,
+        "trailing": -20,
+        "height": 30
+      }
+    },
+
+    {
+      "outlet": "status_tw",
+      "type": "button",
+      "action": "click_tw",
+      "autolayout": {
+        "bottom": -68,
+        "width": 32,
+        "height": 32,
+        "trailing" : -75
+      }
+    },
+    {
+      "outlet": "status_fb",
+      "type": "button",
+      "action": "click_fb",
+      "autolayout": {
+        "bottom": -68,
+        "width": 32,
+        "height": 32,
+        "trailing" : -25
+      }
+    },
+
+
+
+    {
+      "outlet": "finish_button", 
+      "type": "button",
+      "title": "NOVO PAGAMENTO",
+      "color": "F4F5F6",
+      "action": "finish_incomplete",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": 0,
+        "center_x": -80,
+        "width": 160,
+        "height": 50,
+        "leading": 0,
+        "attach_to_super_view": true
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "364655"
+      }
+    }, 
+
+    {
+      "outlet": "finish_button", 
+      "type": "button",
+      "title": "FINALIZAR",
+      "color": "F4F5F6",
+      "action": "finish_complete",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": 0,
+        "center_x": 80,
+        "width": 160,
+        "height": 50,
+        "trailing": 0,
+        "attach_to_super_view": true
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "364655"
+      }
+    }
+           
+  ]
+}

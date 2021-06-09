@@ -1,0 +1,50 @@
+{
+  "elements": [
+    {
+      "type": "image",
+      "outlet": "alert_sign",
+      "name": "images/alert_sign_large.png",
+      "autolayout": {
+        "top": 120,
+        "center_x": 0,
+        "width": 90,
+        "height": 90
+      }
+    },
+    
+    {
+      "outlet": "instructions_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Nós não armazenamos os dados do seu cartão. Todos os dados são criptografados no momento do cadastro e por essa razão você não pode editar nenhuma informação. Caso queira alterar alguma informação, apague as informações do seu cartão e insira-o novamente.",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 230,
+        "center_x": 0,
+        "width": 260,
+        "height": 160
+      }
+    },
+    
+    {
+      "outlet": "delete_button", 
+      "type": "button",
+      "color": "bb0000",
+      "action": "deleteCard",
+      "title": "APAGAR CARTÃO",
+      "corner_radius": 6.0,
+
+      "autolayout": {
+        "bottom": -60,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50
+      }
+    }        
+    
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "background_color": "clear",
+  "elements": [
+    {
+      "outlet": "background_view",
+      "type": "view",
+      "corner_radius": 4,
+      "autolayout": {
+        "top": 10,
+        "bottom": -10,
+        "leading": 20,
+        "trailing": -20
+      }
+    },
+    
+    {
+      "outlet": "name_label",
+      "type": "label",
+      "font": {
+        "color": "ffffff",
+        "size": 18,
+        "name": "Roboto"
+      },
+      "autolayout": {
+        "leading": 40,
+        "trailing": -40,
+        "top": 30,
+        "height": 30
+      }
+    },
+    
+    {
+      "outlet": "balance_label",
+      "type": "label",
+      "font": {
+        "color": "ffffff",
+        "size": 33,
+        "name": "Roboto"
+      },
+      "autolayout": {
+        "leading": 40,
+        "trailing": -40,
+        "top": 65,
+        "height": 28
+      }
+    },
+    
+    {
+      "outlet": "currency_balance_label",
+      "type": "label",
+      "content": "SALDO NA MOEDA",
+      "font": {
+        "color": "ffffff",
+        "size": 12,
+        "name": "Roboto-Bold"
+      },
+      "autolayout": {
+        "leading": 40,
+        "width": 230,
+        "top": 95,
+        "height": 18
+      }
+    },
+    
+    {
+      "outlet": "is_default_background",
+      "background_color": "ffffff",
+      "type": "view",          
+      "corner_radius": 4,
+      "autolayout": {
+        "trailing": -40,
+        "width": 70,
+        "top": 30,
+        "height": 20
+      }
+    },
+    
+    {
+      "outlet": "is_default_label",
+      "type": "label",          
+      "content": "PADRÃO",
+      "text_alignment": "center",
+      "autolayout": {
+        "trailing": -40,
+        "width": 70,
+        "top": 30,
+        "height": 20
+      },
+      "font": {
+        "color": "ffffff",
+        "name": "Roboto-Bold",
+        "size": 10
+      }
+    },
+    {
+      "outlet": "icon",
+      "type": "image",
+      "name": "images/change_icon.png",
+      "autolayout": {
+        "trailing": -60,
+        "width": 22,
+        "height": 22,
+        "center_y": 10
+      }
+    }
+  ]
+}

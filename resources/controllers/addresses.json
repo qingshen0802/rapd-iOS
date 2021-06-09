@@ -1,0 +1,37 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "change_separator_no_icon": true,
+      "cells": {"no_icon_title_subtitle": 60},
+      "autolayout": {
+        "top": 80,
+        "bottom": -80,
+        "leading": 0,
+        "trailing": 0
+      }
+    },
+    
+    {
+      "outlet": "add_button", 
+      "type": "button",
+      "title": "NOVO ENDEREÇO",
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "color": "F15E4F",
+      "action": "addAddress",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -60,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    },   
+  ]
+}  

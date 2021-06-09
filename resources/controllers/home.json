@@ -1,0 +1,35 @@
+{
+  "background_color": "ffffff",
+  "elements": [
+    {
+      "outlet": "search_view",
+      "type": "search_field",
+      "background_color": "F4F5F6",
+      "text_field_color": "F4F5F6",
+      "text_color": "364655",
+      "corner_radius": 0,
+      "placeholder": "Digite o @usuario, telefone ou email",
+      "autolayout": {
+        "top": 95,
+        "leading": 20,
+        "trailing": -20,
+        "height": 44
+      }
+    },
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "background_color": "f1f2f4",
+      "hide_separator": false,
+      "separator_color" : "9AA2AA",
+      "skip_inset": true,
+      "cells": {"list_business_my": 75, "list_business": 75},
+      "autolayout": {
+        "top": 165,
+        "bottom": -50,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

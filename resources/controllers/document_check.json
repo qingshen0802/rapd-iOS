@@ -1,0 +1,96 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "top_square",
+      "type": "view",
+      "background_color": "ecf0f1",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 80,
+        "center_x": 0,
+        "width": 300,
+        "height": 180
+      }
+    },
+    
+    {
+      "outlet": "document_icon",
+      "type": "image",
+      "name": "images/document_icon.png",
+      "autolayout": {
+        "top": 120,
+        "center_x": 0,
+        "width": 45,
+        "height": 45
+      }
+    },
+    
+    {
+      "outlet": "confirm_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Precisamos confirmar sua\nidentidade para aprovar seus\nresgates.",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 180,
+        "center_x": 0,
+        "width": 300,
+        "height": 60
+      }
+    },
+    
+    {
+      "outlet": "instructions_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Você deve enviar uma foto do seu RG, CNH\nou RNE. Esses dados são necessários para\nque possamos confirmar sua identidade",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 300,
+        "center_x": 0,
+        "width": 310,
+        "height": 60
+      }
+    },   
+    
+    {
+      "type": "table_view",
+      "cells": {"document_status": 80},
+      "autolayout": {
+        "top": 300,
+        "height": 160,
+        "leading": 0,
+        "trailing": 0
+      }
+    },             
+    
+    {
+      "outlet": "save_button", 
+      "type": "button",
+      "title": "CONTINUAR",
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "color": "F15E4F",
+      "action": "continue",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -60,
+        "center_x": 0,
+        "width": 310,
+        "height": 50
+      }
+    },        
+  ]
+}

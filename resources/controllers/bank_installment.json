@@ -1,0 +1,135 @@
+{
+  "elements": [
+    {
+      "outlet": "instructions_label",
+      "type": "label",
+      "content": "Enviamos um boleto no valor de [amount] com o vencimento para do dia [expires_at], para o seu email ([email]). Seus créditos serão adicionados em sua conta em até 2 dias úteis após a confirmação do pagamento do boleto.",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      }, 
+      "autolayout": {
+        "top": 300,
+        "leading": 20,
+        "trailing": -20,
+        "height": 200
+      }
+    },
+    
+    {
+      "outlet": "bank_installment_label", 
+      "type": "label",
+      "autolayout": {
+        "top": 100,
+        "center_x": 0,
+        "width": 320,
+        "height": 20
+      },
+      "content": "Código de Barras",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },          
+            
+    {
+      "outlet": "bank_installment_code_field",
+      "type": "text_area",
+      "underlined": true,
+      "disabled": true,
+      "text_alignment": "center",
+      "autolayout": {
+        "width": 320,
+        "center_x": 0,
+        "top": 120,
+        "height": 45
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      }
+    },
+    
+    {
+      "outlet": "amount_label", 
+      "type": "label",
+      "content": "Valor",
+      "autolayout": {
+        "top": 210,
+        "center_x": -85,
+        "width": 155,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },         
+    
+    {
+      "outlet": "amount_field",
+      "type": "text_field",
+      "disabled": true,
+      "underlined": true, 
+      "autolayout": {
+        "width": 155,
+        "center_x": -85,
+        "top": 230,
+        "height": 30
+      }
+    },  
+    
+    {
+      "outlet": "expires_at_label", 
+      "type": "label",
+      "content": "Data de Vencimento",
+      "autolayout": {
+        "top": 210,
+        "center_x": 85,
+        "width": 155,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },         
+    
+    {
+      "outlet": "expires_at_field",
+      "type": "text_field",
+      "disabled": true,          
+      "underlined": true,          
+      "autolayout": {
+        "width": 155,
+        "center_x": 85,
+        "top": 230,
+        "height": 30
+      }
+    }, 
+    
+    {
+      "outlet": "complete_button", 
+      "type": "button",
+      "color": "F15E4F",
+      "title": "CONCLUIR",
+      "action": "completeInstallment",
+      "corner_radius": 6.0,
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "autolayout": {
+        "bottom": -70,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50
+      }
+    },             
+  ]
+}

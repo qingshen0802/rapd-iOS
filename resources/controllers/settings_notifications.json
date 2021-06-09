@@ -1,0 +1,34 @@
+{
+  "background_color": "ECF0F1",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "disable_scroll": true,
+      "cells": {"switch": 50},
+      "autolayout": {
+        "top": 120,
+        "height": 50,
+        "leading": 0,
+        "trailing": 0
+      }
+    },
+    {
+      "outlet": "label",
+      "type": "label",
+      "content": "ATIVAR NOTIFICAÇÕES",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "6D6D72"
+      },
+      "autolayout": {
+        "top": 90,
+        "height": 20,
+        "leading": 10,
+        "trailing": 0
+      }
+    }
+  ]
+}

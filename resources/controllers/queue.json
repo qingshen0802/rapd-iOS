@@ -1,0 +1,172 @@
+{
+  "background_color": "F15E4F",
+  "title_color": "ffffff",
+  "back_button": "images/back-button-white.png",
+  "elements": [
+    {
+      "outlet": "main_image", 
+      "type": "image",
+      "name": "images/queue_meter.png",
+      "autolayout": {
+        "top": 70,
+        "center_x": 0,
+        "width": 195,
+        "height": 183
+      },
+    },
+            
+    {
+      "outlet": "growing_label",
+      "type": "label",
+      "content": "Ops! Existem algumas\npessoas na sua frente!",
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto",
+        "size": 26,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 230,
+        "height": 80
+      },
+      
+    },
+    
+    {
+      "outlet": "working_label",
+      "type": "label",
+      "content": "Uma fila virtual controla o cadastro de novos\nusuários para garantir a qualidade desejada.\nAtualmente existem:",
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "width": 320,
+        "center_x": 0,
+        "top": 300,
+        "height": 80
+      },
+      
+    },   
+    
+    {
+      "outlet": "number_in_list_label",
+      "type": "label",
+      "content": "201",
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto",
+        "size": 50,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 370,
+        "height": 80
+      },
+      
+    },  
+    
+    {
+      "outlet": "number_in_list_description_label",
+      "type": "label",
+      "content": "Pessoas na sua frente",
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 400,
+        "height": 80
+      },
+      
+    },                         
+    
+    {
+      "outlet": "number_behind_in_list_label",
+      "type": "label",
+      "content": "50,210",
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto",
+        "size": 40,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 450,
+        "height": 80
+      },
+      
+    },  
+    
+    {
+      "outlet": "number_behind_in_list_description_label",
+      "type": "label",
+      "content": "Atrás de você",
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 480,
+        "height": 80
+      },
+      
+    },     
+    
+    {
+      "outlet": "share_explain_label",
+      "type": "label",
+      "content": "Suba algumas posições convidando seus\namigos e conheça o aplicativo do momento.",
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "width": 320,
+        "center_x": 0,
+        "top": 520,
+        "height": 80
+      },
+      
+    },
+    
+    {
+      "outlet": "share_button", 
+      "type": "button",
+      "title_color": "F15E4F",
+      "color": "ffffff",
+      "action": "facebookShare",
+      "title": "CONVIDAR AMIGOS",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -15,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50
+      },
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 20,
+        "color": "F15E4F"
+      }
+    },                                    
+  ]
+}

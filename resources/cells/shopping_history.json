@@ -1,0 +1,53 @@
+{
+  "elements": [
+    
+    {
+      "outlet": "title_label",
+      "type": "label",
+      "autolayout": {
+        "leading": 20,
+        "trailing": -20,
+        "center_y": -10,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "364655"
+      }
+    },
+
+    {
+      "outlet": "description_label",
+      "type": "label",
+      "autolayout": {
+        "leading": 20,
+        "trailing": -20,
+        "center_y": 15,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "364655"
+      }
+    },           
+     
+    {
+      "outlet": "amount_label",
+      "type": "label",
+      "text_alignment": "right",
+      "autolayout": {
+        "leading": 90,
+        "trailing": -20,
+        "center_y": 0,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "333333"
+      }
+    }            
+  ]
+}

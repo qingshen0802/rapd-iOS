@@ -1,0 +1,19 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "change_separator": true,
+      "cells": {"report_data_small": 60, "rapd_transaction": 60},
+      "skip_inset": true,
+      "autolayout": {
+        "top": 80,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    },  
+  ]
+}

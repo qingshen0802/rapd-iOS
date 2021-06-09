@@ -1,0 +1,172 @@
+{
+  "background_color": "FFFFFF",
+  "elements": [
+    
+    {
+      "outlet": "main_label", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "top": 50,
+        "center_x": 0,
+        "width": 300,
+        "height": 150
+      },
+      "content": "Uma carteira digital\ncomo você nunca viu\nantes.",
+      "font": {
+        "name": "Roboto",
+        "size": 30,
+        "color": "364655"
+      }
+    },
+    
+    {
+      "outlet": "main_image", 
+      "type": "image",
+      "name": "images/wallet.png",
+      "autolayout": {
+        "top": 220,
+        "center_x": 0,
+        "width": 182,
+        "height": 140
+      },
+    },
+    
+    {
+      "outlet": "facebook_button", 
+      "type": "button",
+      "color": "3c5a96",
+      "action": "facebookLogin",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -110,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50
+      }
+    },
+    
+    {
+      "outlet": "facebook_button_title", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "bottom": -135,
+        "center_x": 0,
+        "width": 300,
+        "height": 20
+      },
+      "content": "Tem Facebook?",
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 14,
+        "color": "FFFFFF",
+      }
+    },
+    
+    {
+      "outlet": "facebook_button_subtitle", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "bottom": -116,
+        "center_x": 0,
+        "width": 300,
+        "height": 20
+      },
+      "content": "Use-o para acessar ou criar sua conta",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "FFFFFF"
+      }
+    },
+    
+    {
+      "outlet": "signup_button", 
+      "type": "button",
+      "color": "F15E4F",
+      "action": "signup",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -50,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50
+      }
+    },
+    
+    {
+      "outlet": "signup_button_title", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "bottom": -75,
+        "center_x": 0,
+        "width": 300,
+        "height": 20
+      },
+      "content": "Não Tem Facebook?",
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 14,
+        "color": "FFFFFF",
+      }
+    },
+    
+    {
+      "outlet": "signup_button_subtitle", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "bottom": -56,
+        "center_x": 0,
+        "width": 300,
+        "height": 20
+      },
+      "content": "Crie uma conta com o seu e-mail",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "FFFFFF"
+      }
+    },
+    
+    {
+      "outlet": "have_account_label", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "bottom": -20,
+        "center_x": -35,
+        "width": 300,
+        "height": 20
+      },
+      "content": "Já tem uma conta?",
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "888888"
+      }
+    }, 
+    
+    {
+      "outlet": "login_button", 
+      "type": "button",
+      "action": "login",
+      "title": "Acessar",
+      "link_style": true,
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "F15E4F"
+      },
+      "autolayout": {
+        "bottom": -20,
+        "center_x": 54,
+        "width": 60,
+        "height": 20
+      }
+    }
+  ]
+}

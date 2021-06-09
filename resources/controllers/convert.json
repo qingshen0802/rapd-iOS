@@ -1,0 +1,179 @@
+{
+  "background_color": "384b58",
+  "title_color": "ffffff",
+  "back_button": "images/back-button-white.png",
+  "form_controller": true,
+  "elements": [
+    
+    {
+      "outlet": "from_currency_label", 
+      "type": "label",
+      "content": "Moeda",          
+      "autolayout": {
+        "top": 80,
+        "center_x": -120,
+        "width": 60,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "bcc0c5"
+      }
+    }, 
+    
+    {
+      "outlet": "from_currency_select",
+      "type": "text_field",
+      "placeholder": "",
+      "value": "R$",
+      "underlined": true, 
+      "line_color": "ffffff",
+      "background_color": "384b58",
+      "picker_color": "ffffff",
+      "has_options": true,
+      "autolayout": {
+        "width": 60,
+        "center_x": -120,
+        "top": 100,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "ffffff"
+      }
+    },
+    
+    {
+      "outlet": "from_amount_label", 
+      "type": "label",
+      "content": "Digite um valor",
+      "autolayout": {
+        "top": 80,
+        "center_x": 40,
+        "width": 220,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "bcc0c5"
+      }
+    },         
+    
+    {
+      "outlet": "from_amount_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "underlined": true,
+      "line_color": "ffffff",
+      "background_color": "384b58",
+      "autolayout": {
+        "width": 220,
+        "center_x": 40,
+        "top": 100,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "ffffff"
+      }          
+    },
+    
+    {
+      "outlet": "to_currency_label", 
+      "type": "label",
+      "content": "Moeda",          
+      "autolayout": {
+        "top": 140,
+        "center_x": -120,
+        "width": 60,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "bcc0c5"
+      }
+    }, 
+    
+    {
+      "outlet": "to_currency_select",
+      "type": "text_field",
+      "placeholder": "",
+      "picker_color": "ffffff",
+      "value": "US$",
+      "underlined": true, 
+      "line_color": "ffffff",  
+      "background_color": "384b58",
+      "has_options": true,
+      "autolayout": {
+        "width": 60,
+        "center_x": -120,
+        "top": 160,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "ffffff"
+      }
+    },
+    
+    {
+      "outlet": "from_amount_label", 
+      "type": "label",
+      "content": "Valor convertido",
+      "autolayout": {
+        "top": 140,
+        "center_x": 40,
+        "width": 220,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "bcc0c5"
+      }
+    },         
+    
+    {
+      "outlet": "to_amount_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "underlined": true,
+      "line_color": "ffffff",
+      "background_color": "384b58",
+      "autolayout": {
+        "width": 220,
+        "center_x": 40,
+        "top": 160,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "ffffff"
+      }          
+    },        
+    
+    {
+      "outlet": "convert_button", 
+      "type": "button",
+      "title_color": "384b58",
+      "color": "ffffff",
+      "title": "CONVERTER",
+      "action": "convert",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "top": 420,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    }, 
+   
+  ]
+}

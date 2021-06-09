@@ -1,0 +1,28 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "back_button": "images/back-button-midnight.png",
+  "elements": [
+
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "background_color": "f1f2f4",
+      "skip_inset": true,
+      "cells": {
+                  "company_details_picture": 180,
+                  "company_details_direction": 130,
+                  "company_details_info": 100,
+                  "company_details_contact": 70,
+                  "company_details_discount": 250,
+                  "company_details_promotions": 100
+                },
+      "autolayout": {
+        "top": 0,
+        "bottom": -50,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}  

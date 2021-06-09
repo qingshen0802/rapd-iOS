@@ -1,0 +1,51 @@
+{
+  "background_color": "ffffff",
+  "elements": [
+    {
+      "outlet": "search_view",
+      "type": "search_field",
+      "background_color": "F4F5F6",
+      "text_field_color": "F4F5F6",
+      "text_color": "364655",
+      "corner_radius": 0,
+      "placeholder": "Buscar",
+      "autolayout": {
+        "top": 95,
+        "leading": 20,
+        "trailing": -20,
+        "height": 44
+      }
+    },
+    {
+      "outlet": "name_label",
+      "type": "label",
+      "content": "Todas as notificações",
+      "text_alignment": "left",
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "AAB2B8"
+      },
+      "autolayout": {
+        "top": 160,
+        "leading": 20,
+        "trailing": -20,
+        "height": 22
+      }
+    },
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "background_color": "f1f2f4",
+      "hide_separator": true,
+      "skip_inset": true,
+      "cells": {"notification": 70},
+      "autolayout": {
+        "top": 200,
+        "bottom": -50,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

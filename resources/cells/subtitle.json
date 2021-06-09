@@ -1,0 +1,20 @@
+{  
+  "elements": [        
+    {
+      "outlet": "title_label", 
+      "type": "label",
+      "text_alignment": "left",
+      "autolayout": {
+        "top": 6,
+        "leading": 10,
+        "trailing": 0,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 18,
+        "color": "9AA2AA"
+      }
+    }        
+  ]  
+}

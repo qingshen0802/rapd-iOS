@@ -1,0 +1,74 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "form_controller": true,
+  "elements": [
+    {
+      "outlet": "confirm_account_label",
+      "type": "label",
+      "content": "Um código de 6 dígitos foi enviado para o número de final [number]. Insira-o abaixo:",
+      "text_alignment": "left",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "303C42"
+      },
+      "autolayout": {
+        "leading": 20,
+        "trailing": -20,
+        "top": 80,
+        "height": 60
+      }      
+    },
+    
+    {
+      "outlet": "code_field",
+      "type": "text_field",
+      "placeholder": "Digite o código recebido",
+      "underlined": true,    
+      "number_only": true,      
+      "autolayout": {
+        "trailing": -20,
+        "leading": 20,
+        "top": 130,
+        "height": 44,
+        "center_x": 0
+      }
+    },
+    
+    {
+      "outlet": "resend_sms_button", 
+      "type": "button",
+      "action": "triggerSmsConfirmation",
+      "title": "Não recebi o SMS",
+      "link_style": true,
+      "font": {
+        "name": "Roboto",
+        "size": 17,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 180,
+        "leading": 20,
+        "width": 150,
+        "height": 20
+      }
+    },          
+
+    {
+      "outlet": "confirm_account_button", 
+      "type": "button",
+      "title": "CONTINUAR",
+      "color": "F15E4F",
+      "action": "confirmAccount",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -15,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50,
+        "attach_to_super_super_view": true
+      }
+    }
+  ]
+}

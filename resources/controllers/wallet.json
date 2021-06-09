@@ -1,0 +1,19 @@
+{
+  "background_color": "FFFFFF",     
+  "title_color" : "ffffff",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "change_separator": true,
+      "cells": {"main_wallet": 75, "report_chart": 100, "report_filters": 50, "rapd_transaction": 60},
+      "skip_inset": false,
+      "autolayout": {
+        "top": 80,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

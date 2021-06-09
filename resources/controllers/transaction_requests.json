@@ -1,0 +1,28 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "search_view",
+      "type": "search_field",
+      "autolayout": {
+        "top": 80,
+        "leading": 0,
+        "trailing": 0,
+        "height": 40
+      }
+    },        
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "skip_inset": true,
+      "cells": {"transaction_request": 100},
+      "autolayout": {
+        "top": 120,
+        "bottom": -50,
+        "leading": 0,
+        "trailing": 0
+      }
+    },
+  ]
+}

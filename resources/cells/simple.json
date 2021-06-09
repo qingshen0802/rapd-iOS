@@ -1,0 +1,19 @@
+{
+  "elements": [
+    {
+      "outlet": "label",
+      "type": "label",
+      "font": {
+        "size": 16,
+        "color": "000000",
+        "name": "Roboto"
+      },
+      "autolayout": {
+        "leading": 30,
+        "center_y": 0,
+        "trailing": 10,
+        "height": 20
+      }
+    }
+  ]
+}

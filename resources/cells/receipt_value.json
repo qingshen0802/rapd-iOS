@@ -1,0 +1,21 @@
+{
+  "background_color": "ECF0F1", 
+  "elements": [
+    {
+      "outlet": "value_label", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "center_y": 10,
+        "leading": 0,
+        "trailing": 0,
+        "height": 40
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 28,
+        "color": "000000"
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "background_color": "374B59",
+  "title_color": "ffffff",
+  "back_button": "images/back-button-white.png",      
+  "form_controller": true,
+  "elements": [
+    
+    {
+      "outlet": "currency_label", 
+      "type": "label",
+      "content": "Moeda",          
+      "autolayout": {
+        "top": 80,
+        "center_x": -120,
+        "width": 60,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "bcc0c5"
+      }
+    }, 
+    
+    {
+      "outlet": "currency_select",
+      "type": "text_field",
+      "placeholder": "",
+      "value": "R$",
+      "underlined": true, 
+      "background_color": "374B59",
+      "line_color": "ffffff",
+      "has_options": true,
+      "autolayout": {
+        "width": 60,
+        "center_x": -120,
+        "top": 100,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "ffffff"
+      }
+    },
+    
+    {
+      "outlet": "amount_label", 
+      "type": "label",
+      "content": "Valor desejado",
+      "autolayout": {
+        "top": 80,
+        "center_x": 40,
+        "width": 220,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "bcc0c5"
+      }
+    },         
+    
+    {
+      "outlet": "amount_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "underlined": true,
+      "line_color": "ffffff",
+      "background_color": "374B59",
+      "autolayout": {
+        "width": 220,
+        "center_x": 40,
+        "top": 100,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "ffffff"
+      }          
+    },
+    
+    {
+      "outlet": "payment_type_label", 
+      "type": "label",
+      "content": "Forma de Pagamento",          
+      "autolayout": {
+        "top": 140,
+        "center_x": 0,
+        "width": 300,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "bcc0c5"
+      }
+    }, 
+    
+    {
+      "outlet": "payment_type_select",
+      "type": "text_field",
+      "placeholder": "",
+      "underlined": true, 
+      "value": "Cartão de Crédito",          
+      "line_color": "ffffff",
+      "background_color": "374B59",
+      "has_options": true,
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 160,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "ffffff"
+      }
+    },        
+    
+    {
+      "outlet": "fees_button", 
+      "type": "button",
+      "action": "showFees",
+      "title": "Conheça nossas tarifas e prazos",
+      "link_style": true,
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 14,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "top": 380,
+        "center_x": 0,
+        "width": 300,
+        "height": 20
+      }
+    },
+    
+    {
+      "outlet": "exchange_square",
+      "type": "view",
+      "background_color": "32434f",
+      "corner_radius": 5,
+      "autolayout": {
+        "top": 250,
+        "center_x": 0,
+        "width": 300,
+        "height": 100
+      }
+    },
+
+    {
+      "outlet": "amount_exchange_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "",
+      "font": {
+        "name": "Roboto",
+        "size": 26,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "top": 260,
+        "center_x": 0,
+        "width": 300,
+        "height": 60
+      }
+    },    
+    
+    {
+      "outlet": "today_exchange_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "na cotação de hoje",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "top": 290,
+        "center_x": 0,
+        "width": 300,
+        "height": 60
+      }
+    },        
+   
+    {
+      "outlet": "load_currency_button", 
+      "type": "button",
+      "title_color": "374B59",
+      "color": "ffffff",
+      "title": "CARREGAR",
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "action": "loadCurrency",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "top": 420,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    },       
+   
+  ]
+}     

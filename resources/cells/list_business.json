@@ -1,0 +1,49 @@
+{  
+  "elements": [
+    {
+      "outlet": "icon",
+      "type": "image",
+      "autolayout": {
+        "leading": 20,
+        "center_y": 0,
+        "width": 40,
+        "height": 40
+      },
+      "corner_radius": 20
+    },
+    
+    {
+      "outlet": "title_label", 
+      "type": "label",
+      "text_alignment": "left",
+      "autolayout": {
+        "top": 17,
+        "leading": 70,
+        "trailing": -20,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 16,
+        "color": "000000"
+      }
+    },
+    
+    {
+      "outlet": "subtitle_label", 
+      "type": "label",
+      "text_alignment": "left",
+      "autolayout": {
+        "top": 40,
+        "leading": 70,
+        "trailing": 0,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto-Light",
+        "size": 13,
+        "color": "9AA2AA"
+      }
+    }
+  ]  
+}

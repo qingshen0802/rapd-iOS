@@ -1,0 +1,19 @@
+{
+  "background_color": "384b58",
+  "title_color": "ffffff",
+  "back_button": "images/back-button-midnight.png",      
+  "elements": [
+    {
+      "type": "table_view",
+      "background_color": "384b58",
+      "skip_inset": true,
+      "cells": {"icon_title_subtitle": 55},
+      "autolayout": {
+        "top": 50,
+        "height": 130,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

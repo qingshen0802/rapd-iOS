@@ -1,0 +1,22 @@
+{
+  "elements": [
+    {
+      "type": "chart",
+      "outlet": "data_chart",
+      "bezier_curve": true,
+      "line_width": 2.0,
+      "point_size": 10.0,
+      "x_axis_color": "000000",
+      "y_axis_color": "364655",
+      "y_axis_label": false,
+      "top_background_color": "F15E4F",
+      "bottom_background_color": "F15E4F",
+      "autolayout": {
+        "top": 0,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

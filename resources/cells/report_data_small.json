@@ -1,0 +1,68 @@
+{
+  "background_color": "F15E4F",
+  "elements": [
+    {
+      "type": "label",
+      "outlet": "balance_title_label",
+      "content": "Balanço do mês",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "top": 10,
+        "height": 20,
+        "leading": 20,
+        "trailing": -20
+      }
+    },
+    
+    {
+      "type": "label",
+      "outlet": "balance_label",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "top": 30,
+        "height": 20,
+        "leading": 20,
+        "trailing": -20
+      }
+    },    
+    {
+      "type": "label",
+      "outlet": "transactions_title_label",
+      "content": "Transações",
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "top": 10,
+        "height": 20,
+        "width": 120,
+        "trailing": -20
+      }
+    },             
+    {
+      "type": "label",
+      "outlet": "transactions_label",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "top": 30,
+        "height": 20,
+        "width": 120,
+        "trailing": -20
+      }
+    },         
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "elements": [
+    {
+      "type": "label",
+      "outlet": "main_label",
+      "content": "Seu cartão está ativo",
+      "text_alignment": "center",
+      "autolayout": {
+        "top": 20,
+        "center_x": 0,
+        "width": 320,
+        "height": 200
+      },
+      "font": {
+        "name": "Roboto",
+        "color": "333333",
+        "size": 18
+      }
+    },
+            
+    {
+      "type": "table_view",
+      "cells": {"simple": 45},
+      "skip_inset": true,
+      "disable_scroll": true,
+      "autolayout": {
+        "top": 200,
+        "height": 179,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

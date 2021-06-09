@@ -1,0 +1,133 @@
+{
+  "form_controller": true,
+  "elements": [
+    {
+      "outlet": "icon1",
+      "type": "image",
+      "name": "images/browse_discount_club_selected.png",
+      "autolayout": {
+        "leading": 20,
+        "center_y": -95,
+        "width": 25,
+        "height": 25
+      }
+    },
+
+    {
+      "outlet": "discount_label", 
+      "type": "label",
+      "content": "SALDO NO CLUBE DE DESCONTO",
+      "text_alignment": "left",
+      "autolayout": {
+        "top": 20,
+        "leading": 55,
+        "trailing": -20,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "666666"
+      }
+    },
+
+    {
+      "outlet": "amount_label", 
+      "type": "label",
+      "text_alignment": "left",
+      "autolayout": {
+        "top": 50,
+        "leading": 55,
+        "trailing": -20,
+        "height": 25
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 30,
+        "color": "666666"
+      }
+    },
+
+    {
+      "outlet": "icon",
+      "type": "image",
+      "name": "images/store_details_info_icon.png",
+      "autolayout": {
+        "trailing": -100,
+        "center_y": -60,
+        "width": 20,
+        "height": 20
+      }
+    },
+
+    {
+      "outlet": "info_button",
+      "type": "button",
+      "title": "O que é isso?",
+      "action": "information",
+      "text_alignment": "right",
+      "autolayout": {
+        "trailing": -10,
+        "width": 100,
+        "center_y": -60,
+        "height":10
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 12,
+        "color": "9AA2AA"
+      }
+    },
+
+    {
+      "outlet": "expiration_label", 
+      "type": "label",
+      "text_alignment": "left",
+      "autolayout": {
+        "top": 80,
+        "leading": 55,
+        "trailing": -20,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto-bold",
+        "size": 14,
+        "color": "666666"
+      }
+    },
+
+    {
+      "outlet": "payment_field",
+      "placeholder": "Insira o valor que gostaria de aplicar",
+      "type": "text_field",
+      "autolayout": {
+        "top": 120,
+        "center_x": 0,
+        "width": 300,
+        "height": 40      
+      },
+      "curency_field" : true,
+      "returnKeyType": "UIReturnKeyDone"
+    },
+
+    {
+      "outlet": "payment_button",
+      "type": "button",
+      "title": "FAZER PAGAMENTO",
+      "action": "make_payment",
+      "text_alignment": "left",
+      "color": "f15e4f",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "top": 180, 
+        "center_x": 0, 
+        "width": 300, 
+        "height": 40
+      },
+      "font": {
+        "name": "Roboto-bold",
+        "size": 18
+      }
+    }
+  ]
+}

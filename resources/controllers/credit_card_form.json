@@ -1,0 +1,294 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "card_target_top_left",
+      "type": "image",
+      "name": "images/card_target_top_left.png",
+      "autolayout": {
+        "width": 50,
+        "height": 50,
+        "top": 40,
+        "center_x": -150
+      }
+    },
+    
+    {
+      "outlet": "card_target_top_right",
+      "type": "image",
+      "name": "images/card_target_top_right.png",
+      "autolayout": {
+        "width": 50,
+        "height": 50,
+        "top": 40,
+        "center_x": 150
+      }
+    },
+    
+    {
+      "outlet": "card_target_bottom_left",
+      "type": "image",
+      "name": "images/card_target_bottom_left.png",    
+      "autolayout": {
+        "width": 50,
+        "height": 50,
+        "top": 190,
+        "center_x": -150
+      }
+    },
+    
+    {
+      "outlet": "card_target_bottom_right",
+      "type": "image",
+      "name": "images/card_target_bottom_right.png",
+      "autolayout": {
+        "width": 50,
+        "height": 50,
+        "top": 190,
+        "center_x": 150
+      }
+    },
+    
+    {
+      "outlet": "card_target_icon",
+      "type": "image",
+      "name": "images/card_target_icon.png",
+      "autolayout": {
+        "width": 50,
+        "height": 50,
+        "top": 80,
+        "center_x": 0
+      }
+    },     
+    
+    {
+      "outlet": "instructions_label", 
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Toque para escanear o seu cartão\ne completar os dados\nautomaticamente",
+      "autolayout": {
+        "top": 130,
+        "center_x": 0,
+        "width": 320,
+        "height": 60
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "000000"
+      }
+    }, 
+    
+    {
+      "outlet": "card_control",
+      "type": "control",
+      "action": "scan_card",
+      "autolayout": {
+        "top": 40,
+        "width": 320,
+        "center_x": 0,
+        "height": 200
+      }
+    },        
+    
+    {
+      "outlet": "manual_label", 
+      "type": "label",
+      "content": "Ou insira os dados manualmente:",
+      "autolayout": {
+        "top": 250,
+        "center_x": 0,
+        "width": 320,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "000000"
+      }
+    }, 
+    
+    {
+      "outlet": "name_label", 
+      "type": "label",
+      "autolayout": {
+        "top": 280,
+        "center_x": 0,
+        "width": 320,
+        "height": 20
+      },
+      "content": "Nome como no cartão",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },        
+    
+    {
+      "outlet": "name_field",
+      "next_outlet": "card_number_field",          
+      "type": "text_field",
+      "auto_capitalization": true,
+      "scroll_top": 20,
+      "underlined": true, 
+      "autolayout": {
+        "top": 300,            
+        "width": 320,
+        "center_x": 0,
+        "height": 30
+      }
+    },  
+    
+    {
+      "outlet": "card_number_label", 
+      "type": "label",
+      "autolayout": {
+        "top": 340,
+        "center_x": 0,
+        "width": 320,
+        "height": 20
+      },
+      "content": "Número do cartão",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },        
+    
+    {
+      "outlet": "card_number_field",
+      "next_outlet": "expiry_date_field",          
+      "type": "text_field",
+      "scroll_top": 20,
+      "underlined": true, 
+      "autolayout": {
+        "top": 360,            
+        "width": 320,
+        "center_x": 0,
+        "height": 30
+      }
+    },                      
+    
+    {
+      "outlet": "expiry_date_label", 
+      "type": "label",
+      "content": "Data de Vencimento",
+      "autolayout": {
+        "top": 400,
+        "center_x": -80,
+        "width": 160,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },         
+    
+    {
+      "outlet": "expiry_date_field",
+      "next_outlet": "cvv_field",
+      "type": "text_field",
+      "scroll_top": 280,
+      "underlined": true,          
+      "autolayout": {
+        "width": 160,
+        "center_x": -80,
+        "top": 420,
+        "height": 30
+      }
+    },           
+
+    {
+      "outlet": "cvv_label", 
+      "type": "label",
+      "autolayout": {
+        "top": 400,
+        "center_x": 90,
+        "width": 140,
+        "height": 20
+      },
+      "content": "CVV",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },         
+    
+    {
+      "outlet": "cvv_field",
+      "type": "text_field",
+      "scroll_top": 280,
+      "underlined": true,          
+      "autolayout": {
+        "width": 140,
+        "center_x": 90,
+        "top": 420,
+        "height": 30
+      }
+    }, 
+
+    
+    {
+      "outlet": "address_label", 
+      "type": "label",
+      "content": "Endereço de cadastro", 
+      "autolayout": {
+        "top": 460,
+        "center_x": 0,
+        "width": 320,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "000000"
+      }
+    }, 
+
+    {
+      "outlet": "address_select",
+      "type": "text_field",
+      "placeholder": "",
+      "underlined": true, 
+      "value": "Selecione",
+      "line_color": "000000",
+      "has_options": true,
+      "autolayout": {
+        "width": 320,
+        "center_x": 0,
+        "top": 480,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "000000"
+      }
+    },
+    
+    {
+      "outlet": "save_button", 
+      "type": "button",
+      "title": "ADICIONAR CARTÃO",
+      "color": "F15E4F",
+      "action": "save",
+      "corner_radius": 6.0,
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "autolayout": {
+        "top": 530,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    },
+  ]
+}

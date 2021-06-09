@@ -1,0 +1,134 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "form_controller": true,
+  "elements": [
+    
+    
+    
+    {
+      "outlet": "name_field",
+      "type": "text_field",
+      "auto_capitalization": true,
+      "scroll_top": 0,
+      "placeholder": "Seu nome completo",
+      "underlined": true, 
+      "autolayout": {
+        "top": 80,            
+        "width": 300,
+        "center_x": 0,
+        "height": 30
+      }
+    },
+    
+    
+            
+    
+    
+    
+    
+    {
+      "outlet": "email_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "scroll_top": 0,
+      "placeholder": "Seu e-mail",
+      "underlined": true,          
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 130,
+        "height": 30
+      }
+    },
+    
+    
+    
+    {
+      "outlet": "document_id_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "scroll_top": 0,
+      "placeholder": "Seu Documento",
+      "underlined": true,
+      "number_only": true,  
+      "mask": true,         
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 180,
+        "height": 30
+      }
+    },
+    
+    
+    
+    {
+      "outlet": "birth_date_field",
+      "type": "text_field",
+      "placeholder": "Aniversário (DD/MM/AAAA)",
+      "scroll_top": 0,
+      "underlined": true,
+      "number_only": true,
+      "mask": true,          
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 230,
+        "height": 30
+      }
+    },  
+    
+    
+    
+    {
+      "outlet": "description_field",
+      "type": "text_area",
+      "placeholder": "ex: Pizzaria na região de Moema",
+      "scroll_top": 0,
+      "underlined": true,          
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 230,
+        "height": 60
+      }
+    },          
+
+     
+
+    {
+      "outlet": "category_select",
+      "type": "text_field",
+      "placeholder": "Categoria",
+      "scroll_top": 0,
+      "underlined": true,
+      "has_options": true,
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 320,
+        "height": 30
+      }
+    },  
+    
+    {
+      "outlet": "save_button", 
+      "type": "button",
+      "title": "SALVAR ALTERAÇÕES",
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "color": "F15E4F",
+      "action": "save",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "top": 440,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    },        
+  ]
+}   

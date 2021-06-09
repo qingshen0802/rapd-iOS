@@ -1,0 +1,47 @@
+{
+  "background_color": "ffffff",
+  "elements": [
+    {
+      "outlet": "background_view",
+      "type": "view",
+      "corner_radius": 4,
+      "autolayout": {
+        "top": 10,
+        "bottom": -10,
+        "leading": 20,
+        "trailing": -20
+      }
+    },
+
+    {
+      "outlet": "search_view",
+      "type": "search_field",
+      "background_color": "F4F5F6",
+      "text_field_color": "F4F5F6",
+      "text_color": "364655",
+      "corner_radius": 0,
+      "placeholder": "Pesquisar loja, produtos e serviços",
+      "autolayout": {
+        "top": 95,
+        "leading":20,
+        "trailing": -20,
+        "height": 44
+      }
+    },
+
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "background_color": "f1f2f4",
+      "hide_separator": true,
+      "skip_inset": true,
+      "cells": {"browse_filters": 80, "browse_store_filters": 50, "browse_store": 250},
+      "autolayout": {
+        "top": 140,
+        "bottom": -50,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

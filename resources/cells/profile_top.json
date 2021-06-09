@@ -1,0 +1,90 @@
+{
+  "elements": [
+    {
+      "outlet": "bg_image",
+      "type": "image",
+      "name": "images/profile_top_bg.png",
+      "autolayout": {
+        "trailing": 0,
+        "leading": 0,
+        "top": 0,
+        "bottom": 0
+      }
+    },
+    {
+      "outlet": "profile_border",
+      "type": "view",
+      "corner_radius": 39,
+      "background_color": "000000",
+      "alpha": 0.2,
+      "autolayout": {
+        "center_x": 0,
+        "center_y": -5,
+        "width": 78,
+        "height": 78
+      }
+    },
+    {
+      "outlet": "ttt",
+      "type": "label",
+      "content": "Perfil",
+      "text_alignment": "center",
+      "autolayout": {
+        "top": 35,
+        "center_x": 0,
+        "width": 300,
+        "height": 25
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "FFFFFF"
+      }
+    },
+    {
+      "outlet": "profile_image",
+      "type": "image",
+      "corner_radius": 35,
+      "autolayout": {
+        "center_x": 0,
+        "center_y": -5,
+        "width": 70,
+        "height": 70
+      }
+    },
+    
+    {
+      "outlet": "name_label", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "top": 190,
+        "center_x": 0,
+        "width": 300,
+        "height": 22
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 20,
+        "color": "4A4A4A"
+      }
+    }, 
+    
+    {
+      "outlet": "username_label", 
+      "type": "label",
+      "text_alignment": "center",
+      "autolayout": {
+        "top": 215,
+        "center_x": 0,
+        "width": 300,
+        "height": 18
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "4A4A4A"
+      }
+    }             
+  ]
+}

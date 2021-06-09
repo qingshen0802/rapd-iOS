@@ -1,0 +1,205 @@
+{
+  "background_color": "FFFFFF",
+  "title_color": "364655",
+  "form_controller": true,
+  "elements": [
+    
+   
+    
+    {
+      "outlet": "name_field",
+      "next_outlet": "postal_code_field",          
+      "type": "text_field",
+      "auto_capitalization": true,
+      "scroll_top": 0,
+      "placeholder": "Tipo de Endereço (Ex: Casa)",
+      "underlined": true, 
+      "text_color":"364655",
+      "autolayout": {
+        "top": 80,            
+        "width": 300,
+        "center_x": 0,
+        "height": 30
+      }
+    },
+    
+            
+            
+    {
+      "outlet": "postal_code_field",
+      "next_outlet": "address_line_1_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "readonly": true,
+      "scroll_top": 0,
+      "placeholder": "CEP",
+      "underlined": true,          
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 130,
+        "height": 30
+      }
+    },
+    
+    
+    
+    {
+      "outlet": "address_line_1_field",
+      "next_outlet": "address_line_2_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "scroll_top": 0,
+      "placeholder": "Endereço",
+      "underlined": true,          
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 180,
+        "height": 30
+      }
+    },
+    
+            
+    
+    {
+      "outlet": "address_line_2_field",
+      "next_outlet": "address_line_3_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "scroll_top": 0,
+      "placeholder": "Número",
+      "underlined": true,          
+      "autolayout": {
+        "width": 140,
+        "center_x": -80,
+        "top": 230,
+        "height": 30
+      }
+    },
+    
+           
+    
+    {
+      "outlet": "address_line_3_field",
+      "next_outlet": "borough_field",
+      "type": "text_field",
+      "auto_capitalization": false,
+      "scroll_top": 0,
+      "placeholder": "Complemento",
+      "underlined": true,          
+      "autolayout": {
+        "width": 140,
+        "center_x": 80,
+        "top": 230,
+        "height": 30
+      }
+    },        
+    
+    
+    
+    {
+      "outlet": "borough_field",
+      "next_outlet": "state_field",
+      "type": "text_field",
+      "scroll_top": 0,
+      "placeholder": "Bairro",
+      "underlined": true,          
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 280,
+        "height": 30
+      }
+    }, 
+    
+    
+    
+    {
+      "outlet": "state_field",
+      "next_outlet": "city_field",
+      "type": "text_field",
+      "scroll_top": 0,
+      "placeholder": "Estado",
+      "underlined": true,          
+      "autolayout": {
+        "width": 100,
+        "center_x": -100,
+        "top": 330,
+        "height": 30
+      }
+    },           
+
+          
+    
+    {
+      "outlet": "city_field",
+      "type": "text_field",
+      "scroll_top": 0,
+      "placeholder": "Cidade",
+      "underlined": true,          
+      "autolayout": {
+        "width": 180,
+        "center_x": 60,
+        "top": 330,
+        "height": 30
+      }
+    },             
+    
+    
+
+
+ {
+      "outlet": "default_address_button", 
+      "type": "button",
+      "checkbox": true,
+      "action": "toggle_default_address",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "top": 380,
+        "center_x": -140,
+        "width": 25,
+        "height": 25
+      }
+    },               
+    
+    {
+      "outlet": "default_address_label", 
+      "type": "label",
+      "text_alignment": "left",
+      "autolayout": {
+        "top": 382,
+        "center_x": 15,
+        "width": 280,
+        "height": 20
+      },
+      "content": "Endereço padrão de entrega",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },  
+
+
+    
+    {
+      "outlet": "save_button", 
+      "type": "button",
+      "title": "SALVAR",
+      "color": "F15E4F",
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "action": "save",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "top": 500,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    },
+  ]
+}       

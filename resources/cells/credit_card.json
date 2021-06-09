@@ -1,0 +1,81 @@
+{
+  "elements": [
+    {
+      "outlet": "square",
+      "type": "view",
+      "corner_radius": 6,
+      "autolayout": {
+        "top": 10,
+        "leading": 10,
+        "trailing": -10,
+        "bottom": -10
+      }
+    },
+    
+    {
+      "outlet": "logo_image",
+      "type": "image",
+      "autolayout": {
+        "width": 70,
+        "height": 45,
+        "leading": 40,
+        "top": 30
+      }
+    },
+    
+    {
+      "outlet": "switch",
+      "type": "switch",
+      "autolayout": {
+        "top": 40,
+        "trailing": -30,
+        "width": 60,
+        "height": 30
+      }
+    },
+    
+    {
+      "outlet": "card_number_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "leading": 40,
+        "trailing": -40,
+        "center_y": 30,
+        "height": 22
+      }
+    },
+    
+    {
+      "outlet": "card_created_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "leading": 40,
+        "trailing": -40,
+        "center_y": 60,
+        "height": 22
+      }
+    },
+    
+    {
+      "outlet": "gear_button",
+      "type": "button",
+      "image": "images/white_gear.png",
+      "autolayout": {
+        "center_y": 40,
+        "trailing": -40,
+        "width": 25,
+        "height": 25
+      }
+    }        
+  ]
+}

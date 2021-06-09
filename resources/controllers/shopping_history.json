@@ -1,0 +1,18 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "cells": {"shopping_history": 80},
+      "skip_inset": true,
+      "autolayout": {
+        "top": 80,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    },  
+  ]
+}

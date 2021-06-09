@@ -1,0 +1,62 @@
+{
+  "background_color": "F15E4F",
+  "title_color": "ffffff",
+  "back_button": "images/back-button-white.png",
+  "elements": [
+    {
+      "outlet": "first_label",
+      "type": "label",
+      "content": "Quer receber seu dinheiro com mais rapidez, praticidade e segurança?",
+      "text_alignment": "center",
+      "autolayout": {
+        "center_x": 0,
+        "center_y": -20,
+        "width": 320,
+        "height": 90
+      },
+      "font": {
+        "name": "Roboto",
+        "color": "ffffff",
+        "size": 18
+      }
+    },
+    
+    {
+      "outlet": "second_label",
+      "type": "label",
+      "content": "Carregando o cartão pré pago Tratto com o dinheiro da sua conta você pode realizar saques e efetuar pagamentos em qualquer estabelecimento que aceite a bandeira Mastercard",
+      "text_alignment": "center",
+      "autolayout": {
+        "center_x": 0,
+        "center_y": 100,
+        "width": 320,
+        "height": 120
+      },
+      "font": {
+        "name": "Roboto",
+        "color": "ffffff",
+        "size": 18
+      }
+    },
+    
+    {
+      "outlet": "request_button", 
+      "type": "button",
+      "title_color": "F15E4F",
+      "color": "ffffff",
+      "title": "PEDIR AGORA",
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "action": "requestCard",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -60,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    },  
+  ]      
+}

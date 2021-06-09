@@ -1,0 +1,18 @@
+{
+  "background_color": "ECF0F1",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "disable_scroll": true,
+      "cells": {"switch": 50},
+      "autolayout": {
+        "top": 80,
+        "height": 90,
+        "leading": 0,
+        "trailing": 0
+      }
+    },
+  ]
+}

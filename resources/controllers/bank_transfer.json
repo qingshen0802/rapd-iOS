@@ -1,0 +1,160 @@
+{
+  "elements": [
+    {
+      "outlet": "instructions_label",
+      "type": "label",
+      "content": "Realize a transferência no valor de [amount]\naté 24h para a conta abaixo. O valor será\ncreditado na sua conta em até 24h após a\ntransferência. Envie-nos a foto do seu\ncomprovante para agilizar o processo.",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      }, 
+      "autolayout": {
+        "top": 90,
+        "leading": 20,
+        "trailing": -20,
+        "height": 120
+      }
+    },
+    
+    {
+      "outlet": "bank_label",
+      "type": "label",
+      "content": "Escolha o banco para ver os dados bancários",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "666666"
+      }, 
+      "autolayout": {
+        "top": 220,
+        "leading": 20,
+        "trailing": -20,
+        "height": 20
+      }
+    },     
+    
+    {
+      "outlet": "square",
+      "type": "view",
+      "background_color": "f0f0f0",
+      "border": {
+        "size": 2.0,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 300,
+        "leading": 20,
+        "trailing": -20,
+        "height": 160
+      }
+    },
+    
+    {
+      "outlet": "bank_name_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 16,
+        "color": "000000"
+      }, 
+      "autolayout": {
+        "top": 310,
+        "leading": 30,
+        "trailing": -30,
+        "height": 20
+      }
+    },
+    
+    {
+      "outlet": "account_info_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      }, 
+      "autolayout": {
+        "top": 350,
+        "leading": 30,
+        "trailing": -30,
+        "height": 100
+      }
+    },
+    
+    {
+      "outlet": "cam_image", 
+      "type": "image",
+      "name": "images/camera_icon.png",
+      "autolayout": {
+        "bottom": -140,
+        "leading": 20,
+        "height": 38,
+        "width": 40
+      },
+    },          
+    
+    {
+      "outlet": "upload_button", 
+      "type": "button",
+      "action": "selectPhoto",
+      "title": "Enviar Comprovante",
+      "link_style": true,
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "666666"
+      },
+      "autolayout": {
+        "bottom": -150,
+        "leading": 70,
+        "height": 20,
+        "width": 150
+      }
+    }, 
+    
+    {
+      "outlet": "document_image", 
+      "type": "image",
+      "autolayout": {
+        "bottom": -140,
+        "trailing": -20,
+        "height": 38,
+        "width": 40
+      },
+    },         
+
+    {
+      "outlet": "complete_button", 
+      "type": "button",
+      "color": "F15E4F",
+      "title": "CONCLUIR",
+      "action": "completeTransfer",
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -70,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50
+      }
+    },
+
+    {
+      "outlet": "bank_select",
+      "type": "text_field",
+      "placeholder": "Selecione",
+      "underlined": true,
+      "has_options": true,
+      "autolayout": {
+        "leading": 20,
+        "trailing": -20,
+        "top": 250,
+        "height": 30
+      }
+    },                      
+  ]
+}

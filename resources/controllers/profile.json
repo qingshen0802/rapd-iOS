@@ -1,0 +1,17 @@
+{
+  "background_color": "F15E4F",
+  "title_color": "ffffff",
+  "elements": [
+    {
+      "type": "table_view",
+      "change_separator": true,
+      "cells": {"profile_top": 250, "icon_title_subtitle": 60},
+      "autolayout": {
+        "top": 0,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

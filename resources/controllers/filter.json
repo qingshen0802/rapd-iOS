@@ -1,0 +1,19 @@
+{
+  "background_color": "ffffff",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "background_color": "FFFFFF",
+      "hide_separator": true,
+      "skip_inset": true,
+      "cells": {"notification": 50},
+      "autolayout": {
+        "top": 80,
+        "bottom": -50,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

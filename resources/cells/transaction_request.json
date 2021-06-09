@@ -1,0 +1,75 @@
+{
+  "elements": [
+    
+    {
+      "outlet": "avatar",
+      "type": "image",
+      "corner_radius": 30,
+      "autolayout": {
+        "center_y": 0,
+        "leading": 20,
+        "width": 60,
+        "height": 60
+      }
+    },
+    {
+      "outlet": "name_label",
+      "type": "label",
+      "autolayout": {
+        "leading": 90,
+        "trailing": -20,
+        "center_y": -10,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "333333"
+      }
+    },
+    
+    {
+      "outlet": "status_icon",
+      "type": "image",
+      "autolayout": {
+        "leading": 88,
+        "center_y": 15,
+        "height": 20,
+        "width": 20
+      },
+    },       
+    
+    {
+      "outlet": "status_label",
+      "type": "label",
+      "autolayout": {
+        "leading": 108,
+        "trailing": -20,
+        "center_y": 15,
+        "height": 20
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "333333"
+      }
+    },           
+     
+    {
+      "outlet": "amount_label",
+      "type": "label",
+      "text_alignment": "right",
+      "autolayout": {
+        "leading": 90,
+        "trailing": -20,
+        "center_y": 0,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "333333"
+      }
+    }            
+  ]
+}

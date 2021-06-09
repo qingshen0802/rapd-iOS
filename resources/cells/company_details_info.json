@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "outlet": "icon",
+      "type": "image",
+      "name": "images/store_details_description.png",
+      "autolayout": {
+        "leading": 25,
+        "center_y":-20,
+        "width": 25,
+        "height": 25
+      }
+    },
+    
+    {
+      "outlet": "title_label", 
+      "type": "label",
+      "text_alignment": "left",
+      "autolayout": {
+        "top": 10,
+        "leading": 55,
+        "trailing": -20,
+        "height": 80
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "666666"
+      }
+    }
+  ]
+}

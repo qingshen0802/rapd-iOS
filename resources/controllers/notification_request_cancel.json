@@ -1,0 +1,158 @@
+{
+  "background_color": "ffffff",
+  "elements": [
+    {
+      "outlet": "top_view",
+      "type": "view",
+      "corner_radius": 2,
+      "background_color": "F6A623",
+      "autolayout": {
+        "center_x": 0,
+        "leading": 25,
+        "trailing": -25,
+        "top": 108,
+        "width": 88,
+        "height": 120
+      }
+    },
+    {
+      "outlet": "profile_border",
+      "type": "view",
+      "corner_radius": 39,
+      "background_color": "FFFFFF",
+      "autolayout": {
+        "center_x": -1,
+        "top": 68,
+        "width": 78,
+        "height": 78
+      }
+    },
+    {
+      "outlet": "profile_image",
+      "type": "image",
+      "corner_radius": 35,
+      "autolayout": {
+        "center_x": 0,
+        "top": 70,
+        "width": 70,
+        "height": 70
+      }
+    },
+    {
+      "outlet": "title_label",
+      "type": "label",
+      "text_alignment": "center",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "FFFFFF"
+      },
+      "autolayout": {
+        "top": 160,
+        "leading": 45,
+        "trailing": -45,
+        "height": 50
+      }
+    },
+    {
+      "outlet": "subtitle_label", 
+      "type": "label",
+      "text_alignment": "center",
+      "number_of_lines": 1,
+      "autolayout": {
+        "top": 200,
+        "leading": 50,
+        "trailing": -50,
+        "height": 16
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 12,
+        "color": "ffffff"
+      }
+    },
+
+    {
+      "outlet": "profile_icon",
+      "type": "image",
+      "corner_radius": 25,
+      "autolayout": {
+        "leading": 25,
+        "top": 245,
+        "width": 50,
+        "height": 50
+      }
+    },
+    {
+      "outlet": "des_label",
+      "type": "label",
+      "text_alignment": "left",
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 245,
+        "leading": 100,
+        "trailing": -25,
+        "height": 40
+      }
+    },
+    {
+      "outlet": "subtitle_label1", 
+      "type": "label",
+      "text_alignment": "left",
+      "number_of_lines": 1,
+      "autolayout": {
+        "top": 300,
+        "leading": 100,
+        "trailing": -50,
+        "height": 16
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 12,
+        "color": "9B9B9B"
+      }
+    },
+    {
+      "outlet": "cancel_button", 
+      "type": "button",
+      "title": "CANCELAR SOLICITAÇÃO",
+      "color": "E9EBED",
+      "action": "cancel_request",
+      "corner_radius": 3.0,
+      "autolayout": {
+        "top": 340,
+        "center_x": 0,
+        "leading": 25,
+        "height": 50,
+        "trailing": -25
+      },
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 14,
+        "color": "4A4A4A"
+      }
+    },
+    {
+      "outlet": "state_label", 
+      "type": "label",
+      "text_alignment": "center",
+      "number_of_lines": 1,
+      "autolayout": {
+        "top": 400,
+        "center_x": 0,
+        "leading" : 30,
+        "trailing": -30,
+        "height": 16
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 14,
+        "color": "F15E4F"
+      }
+    }
+  ]
+}

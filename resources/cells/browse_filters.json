@@ -1,0 +1,138 @@
+{
+  "elements": [
+
+    {
+      "outlet": "proximity_icon",
+      "name": "images/browse_proximity.png",
+      "type": "image",
+      "corner_radius": 4.0,
+      "autolayout": {
+        "width": 22,
+        "height": 22,
+        "center_x": -115,
+        "top": 23
+      }
+    },
+
+    {
+      "outlet": "proximity_button",
+      "type": "button",
+      "title": "MAIS PRÓXIMAS",
+      "text_alignment": "right",
+      "image": "",
+      "action": "filter_proximity",
+      "autolayout": {
+        "center_x": -115, 
+        "width": 120,
+        "center_y": 19,
+        "height":70
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 10,
+        "color": "9AA2AA"
+      }
+    },
+
+    {
+      "outlet": "separator",
+      "type": "label",
+      "background_color": "979797",
+      "autolayout": {
+        "top": 21,
+        "center_x": -62.5,
+        "width": 1,
+        "height": 46
+      },
+      "content": "Descrição do Endereço",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },
+
+    {
+      "outlet": "discount_club_icon",
+      "name": "images/browse_discount_club.png",
+      "type": "image",
+      "corner_radius": 4.0,
+      "autolayout": {
+        "width": 22,
+        "height": 22,
+        "center_x": 0, 
+        "top": 23
+      }
+    },
+        
+    {
+      "outlet": "discount_club_button",
+      "type": "button",
+      "title": "CLUBE DE DESCONTO",
+      "text_alignment": "center",
+      "action": "filter_discount_club",
+      "autolayout": {
+        "center_x": 0, 
+        "center_y": 19,
+        "height": 70
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 10,
+        "color": "9AA2AA"
+      }
+    },
+
+    {
+      "outlet": "separator",
+      "type": "label",
+      "background_color": "979797",
+      "autolayout": {
+        "top": 21,
+        "center_x": 67.5,
+        "width": 1,
+        "height": 46
+      },
+      "content": "Descrição do Endereço",
+      "font": {
+        "name": "Roboto-Light",
+        "size": 14,
+        "color": "666666"
+      }
+    },
+
+    {
+      "outlet": "favorite_icon",
+      "name": "images/browse_favorite.png",
+      "type": "image",
+      "corner_radius": 4.0,
+      "autolayout": {
+        "width": 22,
+        "height": 22,
+        "center_x": 115, 
+        "top": 23
+      }
+    },
+
+    {
+      "outlet": "favorite_button",
+      "type": "button",
+      "title": "FAVORITOS",
+      "text_alignment": "right",
+      "action": "filter_favorites",
+      
+      "autolayout": {
+        "center_x": 115, 
+        "width": 120,
+        "center_y": 19,
+        "height": 90
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 10,
+        "color": "9AA2AA"
+      }
+    }
+    
+  ]
+}

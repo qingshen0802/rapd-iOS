@@ -1,0 +1,26 @@
+{ 
+  "elements": [
+    {
+      "outlet": "scroll_view",
+      "type": "scroll_view",
+      "autolayout":{
+        "top":0,
+        "leading": 0,
+        "trailing": 0,
+        "height": 180
+      }
+
+    },
+
+    {
+      "outlet": "page_control",
+      "type": "page_control",
+      "autolayout":{
+        "top": 150,
+        "leading": 0,
+        "trailing": 0,
+        "height": 30
+      }
+    }
+  ]
+} 

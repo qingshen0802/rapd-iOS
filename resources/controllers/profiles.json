@@ -1,0 +1,90 @@
+{
+  "background_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "background_color": "364655",
+      "cells": {"profile": 80},
+      "skip_inset": true,
+      "autolayout": {
+        "top": 50,
+        "bottom": -50,
+        "leading": 0,
+        "trailing": 0
+      }
+    },
+    {
+      "type": "label",
+      "outlet": "title_label",
+      "content": "Mudar perfil",
+      "text_alignment": "left",
+      "font": {
+        "name": "Roboto",
+        "size": 18,
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "leading": 10,
+        "trailing": -10,
+        "top": 20,
+        "height": 20
+      },
+    },
+    {
+      "type": "control",
+      "outlet": "logout_button",
+      "action": "logout",
+      "autolayout": {
+        "leading": 15,
+        "trailing": -15,
+        "bottom": -5,
+        "height": 50
+      },
+      "elements": [
+        {
+          "type": "label",
+          "content": "Logout",
+          "font": {
+            "name": "Roboto",
+            "size": 14,
+            "color": "ffffff"
+          },
+          "autolayout": {
+            "leading": 0,
+            "width": 100,
+            "top": 5,
+            "height": 20
+          }
+        },
+        {
+          "type": "label",
+          "content": "Sair de todas as contas",
+          "font": {
+            "name": "Roboto",
+            "size": 14,
+            "color": "ffffff"
+          },
+          "autolayout": {
+            "leading": 0,
+            "width": 200,
+            "top": 25,
+            "height": 20
+          }
+        },
+        
+        {
+          "type": "image",
+          "name": "images/logout.png",
+          "autolayout": {
+            "trailing": 0,
+            "width": 35,
+            "center_y": 3,
+            "height": 35
+          }
+        },            
+        
+      ]
+    }
+  ]
+}

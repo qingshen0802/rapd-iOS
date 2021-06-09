@@ -1,0 +1,34 @@
+{
+  "background_color": "384b58",
+  "title_color": "ffffff",
+  "back_button": "images/back-button-midnight.png",
+  "elements": [
+    {
+      "outlet": "main_label",
+      "type": "label",
+      "content": "CARREGAR CARTEIRA:\n- Grátis via DOC/TED\n- Grátis via Boleto Bancário\n- 5% de acréscimo via Cartão de Crédito\n\n\nValor Máximo R$ 1.000,00.\nValor Mínimo R$ 100,00\n\n\nPAGAMENTOS:\n- 5% de acréscimo via Cartão de Crédito\n\n\nalor Máximo R$ 1.000,00.\nValor Mínimo R$ 0,01\n\nO valor é adicionado automaticamente com\ncartão de crédito. Em transferência bancária\no prazo é de até 24h, e por boleto de até 2 dias úteis.",
+      "font": {
+        "name": "Roboto",
+        "size": 15,
+        "color": "ffffff"
+      },
+      "autolayout":  {
+        "top": 160,
+        "width": 300,
+        "height": 500,
+        "center_x": 0
+      }
+    },
+    
+    {
+      "outlet": "main_image", 
+      "type": "image",
+      "name": "images/info_icon.png",
+      "autolayout": {
+        "top": 50,
+        "center_x": 0,
+        "width": 135,
+        "height": 150
+      },
+    },        
+  ]

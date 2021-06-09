@@ -1,0 +1,75 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "form_controller": true,
+  "elements": [        
+    {
+      "outlet": "email_field",
+      "next_outlet": "password_field",
+      "type": "text_field",
+      "placeholder": "Digite seu e-mail",
+      "underlined": true,          
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 80,
+        "height": 40
+      }
+    },
+    
+    {
+      "outlet": "password_field",
+      "type": "text_field",
+      "placeholder": "Digite sua senha",
+      "underlined": true, 
+      "password": true,
+      "clear_color": true,
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "364655"
+      },
+      "autolayout": {
+        "width": 300,
+        "center_x": 0,
+        "top": 130,
+        "height": 40
+      }
+    },        
+
+    {
+      "outlet": "forgot_password_button", 
+      "type": "button",
+      "action": "forgotPassword",
+      "title": "Esqueci minha senha",
+      "link_style": true,
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 16,
+        "color": "364655"
+      },
+      "autolayout": {
+        "top": 190,
+        "center_x": -70,
+        "width": 200,
+        "height": 20
+      }
+    },  
+
+    {
+      "outlet": "login_button", 
+      "type": "button",
+      "title": "Acessar conta",
+      "color": "F15E4F",
+      "action": "login",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -15,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50,
+        "attach_to_super_super_view": true
+      }
+    },   
+  ]
+}

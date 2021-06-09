@@ -1,0 +1,51 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "type": "view",
+      "outlet": "description_view",
+      "corner_radius": 2,
+      "background_color": "ECF0F1",
+      "autolayout": {
+        "center_x": 0,
+        "leading": 25,
+        "trailing": -25,
+        "top": 108,
+        "height": 120
+      }
+    },
+    {
+      "outlet": "confirm_label",
+      "type": "label",
+      "text_alignment": "center",
+      "content": "Recebeu esse valor indevidamente?\nToque abaixo para estornar o valor para\n@starbucks. A conta será notificada e se\nautorizado o estorno será realizado.",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 115,
+        "center_x": 0,
+        "width": 300,
+        "height": 100
+      }
+    },
+    {
+      "outlet": "reverse_button", 
+      "type": "button",
+      "title": "Estornar Valor",
+      "color": "F15E4F",
+      "action": "reverse_receiption",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "bottom": -55,
+        "leading": 20,
+        "trailing": -20,
+        "height": 50,
+        "attach_to_super_super_view": true
+      }
+    }
+  ]
+}

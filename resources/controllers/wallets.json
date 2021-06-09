@@ -1,0 +1,32 @@
+{
+  "title_color": "364655",
+  "blur_effect" : false,
+  "background_color": "FFFFFF",
+  "elements": [
+    {
+      "outlet": "cancel_button", 
+      "type": "button",
+      "action": "close",
+      "image": "images/canel_icon.png",
+      "autolayout": {
+        "top": 30,
+        "trailing": -20,
+        "height": 22,
+        "width": 22
+      }
+    },
+    {
+      "type": "table_view",
+      "background_color": "clear",
+      "skip_inset": true,
+      "hide_separator": true,
+      "cells": {"wallet": 150},
+      "autolayout": {
+        "top": 70,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "elements": [
+    {
+      "outlet": "name_label",
+      "type": "label",
+      "font": {
+        "size": 16,
+        "name": "Roboto",
+        "color": "666666"
+      },
+      "autolayout": {
+        "leading": 10,
+        "trailing": -10,
+        "center_y": 0,
+        "height": 22
+      }
+    },
+    {
+      "outlet": "invitation_status_label",
+      "type": "label",
+      "text_alignment": "center",
+      "background_color": "cccccc",
+      "border-radius": 2,
+      "hidden": true,
+      "font": {
+        "size": 14,
+        "name": "Roboto-Bold",
+        "color": "ffffff"
+      },
+      "autolayout": {
+        "trailing": -10,
+        "width": 100,
+        "center_y": 0,
+        "height": 22
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "cells": {"report_chart": 100, "report_data": 100,  "simple": 45},
+      "autolayout": {
+        "top": 80,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    },  
+  ]
+} 

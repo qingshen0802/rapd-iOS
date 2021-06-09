@@ -1,0 +1,29 @@
+{
+  "elements": [
+    {
+      "outlet": "label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      },
+      "autolayout": {
+        "center_y": 0,
+        "leading": 10,
+        "trailing": -60,
+        "height": 18
+      }
+    },
+    {
+      "outlet": "switch",
+      "type": "switch",
+      "autolayout": {
+        "center_y": 0,
+        "trailing": -10,
+        "width": 60,
+        "height": 30
+      }
+    }
+  ]
+}

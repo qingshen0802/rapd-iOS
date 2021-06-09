@@ -1,0 +1,50 @@
+{
+  "background_color": "ffffff",
+  "title_color": "364655",
+  "elements": [
+    {
+      "outlet": "table_view",
+      "type": "table_view",
+      "cells": {"receipt_header":100, "receipt_value": 85, "receipt_data": 48},
+      "skip_inset": false,
+      "corner_radius": 6.0,          
+      "border": {
+        "size": 1.0,
+        "color": "ECF0F1"
+      },
+      "autolayout": {
+        "top": 110,
+        "center_x": 0,
+        "width": 300,
+        "height": 340
+      }
+    },
+    {
+      "outlet": "heart_button", 
+      "type": "button",
+      "action": "heart_click",
+      "image": "images/heart_icon.png",
+      "autolayout": {
+        "bottom": -100,
+        "center_x": -36,
+        "width": 36,
+        "height": 34,
+        "attach_to_super_view": true
+      }
+    }, 
+
+    {
+      "outlet": "message_button", 
+      "type": "button",
+      "action": "message_click",
+      "image": "images/message_icon.png",
+      "autolayout": {
+        "bottom": -100,
+        "center_x": 36,
+        "width": 38,
+        "height": 34,
+        "attach_to_super_view": true
+      }
+    }
+  ]
+}

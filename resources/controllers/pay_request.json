@@ -1,0 +1,107 @@
+{
+  "background_color": "ffffff",
+  "elements": [
+    {
+      "outlet": "profile_selected_field",
+      "next_outlet": "value_field",          
+      "type": "text_field",
+      "scroll_top": 100,
+      "autolayout": {
+        "center_x": 0,
+        "top": 80,
+        "height": 40,
+        "leading": 20,
+        "trailing": -20
+      }
+    },
+    {
+      "outlet": "value_field",
+      "type": "text_field",
+      "placeholder": "Valor",
+      "curency_field": true,
+      "autolayout": {
+        "width": 100,
+        "center_x": -95,
+        "top": 140,
+        "height": 40,
+        "leading": 20
+      }
+    },
+    {
+      "outlet": "choose_wallet_button", 
+      "type": "button",
+      "action": "toggle_wallet",
+      "title": "Alterar carteira",
+      "link_style": true,
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 16,
+        "color": "364655"
+      },
+      "autolayout": {
+        "width": 150,
+        "center_x": 80,
+        "top": 140,
+        "height": 40
+      }
+    },
+    {
+      "outlet": "comments_field",
+      "type": "text_area",
+      "placeholder": "Comentários",
+      "autolayout": {
+        "center_x": 0,
+        "top": 205,
+        "height": 130,
+        "leading": 20,
+        "trailing": -20
+      },
+      "font": {
+        "name": "Roboto-Light",
+        "size": 16,
+        "color": "364655"
+      }
+    },
+    {
+      "outlet": "send_payment_button", 
+      "type": "button",
+      "color": "F4F5F6",
+      "action": "send_payment",
+      "title": "ENVIAR",
+      "autolayout": {
+        "bottom": -55,
+        "width": 160,
+        "center_x": -95,
+        "height": 45,
+        "leading": 0,
+        "attach_to_super_super_view": true
+      },
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 13,
+        "color": "465967"
+      },
+      "text_alignment": "center"
+    },
+    {
+      "outlet": "request_payment_button", 
+      "type": "button",
+      "color": "F4F5F6",
+      "action": "request_payment",
+      "title": "SOLICITAR",
+      "autolayout": {
+        "bottom": -55,
+        "center_x": 80,
+        "width": 160,
+        "height": 45,
+        "trailing": 0,
+        "attach_to_super_super_view": true
+      },
+      "font": {
+        "name": "Roboto-Bold",
+        "size": 13,
+        "color": "465967"
+      }
+    }
+  ]
+}

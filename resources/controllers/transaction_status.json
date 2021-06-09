@@ -1,0 +1,46 @@
+{
+  "elements": [
+    {
+      "outlet": "status_icon",
+      "type": "image",
+      "autolayout": {
+        "top": 80,
+        "width": 150,
+        "height": 150,
+        "center_x": 0
+      }
+    },
+    {
+      "outlet": "status_label",
+      "type": "label",
+      "font": {
+        "name": "Roboto",
+        "size": 16,
+        "color": "000000"
+      },
+      "autolayout": {
+        "top": 220,
+        "leading": 20,
+        "trailing": -20,
+        "height": 300
+      }
+    },
+    
+    {
+      "outlet": "finish_button", 
+      "type": "button",
+      "title": "OK",
+      "color": "F15E4F",
+      "action": "finish",
+      "corner_radius": 6.0,
+      "autolayout": {
+        "top": 530,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    }, 
+    
+           
+  ]
+}

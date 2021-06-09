@@ -1,0 +1,17 @@
+{
+  "background_color": "F15E4F",
+  "title_color": "ffffff",
+  "back_button": "images/back-button-white.png",
+  "elements": [
+    {
+      "type": "table_view",
+      "cells": {"profile_top": 250, "icon_title_subtitle": 60},
+      "autolayout": {
+        "top": 0,
+        "bottom": 0,
+        "leading": 0,
+        "trailing": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "elements": [
+    {
+      "type": "label",
+      "outlet": "main_label",
+      "content": "Seu cartão pré pago ainda não está ativado.\n\nAdicione os números informados na correspondência do seu cartão para ativá-lo.",
+      "text_alignment": "center",
+      "autolayout": {
+        "center_x": 0,
+        "center_y": -200,
+        "width": 320,
+        "height": 200
+      },
+      "font": {
+        "name": "Roboto",
+        "color": "333333",
+        "size": 18
+      }
+    },
+    
+    {
+      "outlet": "pin_view",
+      "type": "pin_view",
+      "autolayout": {
+        "center_x": 0,
+        "center_y": 0,
+        "width": 270,
+        "height": 80
+      }
+    },
+    
+    {
+      "outlet": "save_button", 
+      "type": "button",
+      "title": "ATIVAR CARTÃO",
+      "color": "F15E4F",
+      "action": "unlock_card",
+      "corner_radius": 6.0,
+      "font":{
+        "name": "Roboto-Bold",
+        "size": "18"
+      },
+      "autolayout": {
+        "bottom": -60,
+        "center_x": 0,
+        "width": 300,
+        "height": 50
+      }
+    },        
+  ]
+} 

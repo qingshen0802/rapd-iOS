@@ -1,0 +1,77 @@
+{
+  "elements": [
+    {
+      "outlet": "wallet_select",
+      "type": "label", 
+      "background_color": "EAECEE",
+      "has_options": false,
+      "autolayout": {
+        "width": 60,
+        "leading": 15,
+        "center_y": 0,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto",
+        "size": 13,
+        "color": "364655"
+      },
+      "text_alignment": "center"
+    },
+    
+    {
+      "outlet": "all_button",
+      "type": "button",
+      "title": "Todos",
+      "text_alignment": "right",
+      "action": "filter_all",
+      "autolayout": {
+        "leading": 90,
+        "width": 60,
+        "center_y": 0,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto-Medium",
+        "size": 14,
+        "color": "364655"
+      }
+    },
+    {
+      "outlet": "purchases_button",
+      "type": "button",
+      "title": "Pagamentos",
+      "text_alignment": "right",
+      "action": "filter_purchases",
+      "autolayout": {
+        "center_x": 10,
+        "width": 120,
+        "center_y": 0,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto-Medium",
+        "size": 14,
+        "color": "364655"
+      }
+    },
+    {
+      "outlet": "revenue_button",
+      "type": "button",
+      "title": "Recebimentos",
+      "text_alignment": "right",
+      "action": "filter_revenue",
+      "autolayout": {
+        "trailing": -10,
+        "width": 120,
+        "center_y": 0,
+        "height": 30
+      },
+      "font": {
+        "name": "Roboto-Medium",
+        "size": 14,
+        "color": "364655"
+      }
+    }                
+  ]
+}
